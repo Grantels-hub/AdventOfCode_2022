@@ -16,7 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{8826893B-CAA9-4A42-B736-06DD3FA1B6D8}"
 	ProjectSection(SolutionItems) = preProject
 		resources\day_1.txt = resources\day_1.txt
+		day_2.txt = day_2.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_02", "Day_02\Day_02.csproj", "{6E7CEC10-C680-42ED-937F-A8F44044DFA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +35,10 @@ Global
 		{B4AA956D-A6A7-4534-B1DE-C086FC973A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AA956D-A6A7-4534-B1DE-C086FC973A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4AA956D-A6A7-4534-B1DE-C086FC973A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E7CEC10-C680-42ED-937F-A8F44044DFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E7CEC10-C680-42ED-937F-A8F44044DFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E7CEC10-C680-42ED-937F-A8F44044DFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E7CEC10-C680-42ED-937F-A8F44044DFA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +48,7 @@ Global
 		{85D31B0D-2EEE-4D63-91F1-7A94FE96EBB2} = {0A395DEA-A414-4625-A46D-B4121FD0FEC1}
 		{4A2B5F07-4FC8-49E8-BC7F-BEFAFCF87945} = {85D31B0D-2EEE-4D63-91F1-7A94FE96EBB2}
 		{B4AA956D-A6A7-4534-B1DE-C086FC973A5A} = {F4563FFA-22DD-49BD-98C1-8AE5B6387CDD}
+		{6E7CEC10-C680-42ED-937F-A8F44044DFA1} = {F4563FFA-22DD-49BD-98C1-8AE5B6387CDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {92BF4F38-4807-40E5-AD0A-C2571E61A79C}
