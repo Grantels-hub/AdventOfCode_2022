@@ -4,7 +4,6 @@ using ResourceReader = AdventOfCodeLibrary.ResourceReader;
 ResourceReader resourceReader = new();
 HistoricallySignificantLocationService historicallySignificantLocationService = new();
 
-
 string rawData = resourceReader.GetResource(1);
 historicallySignificantLocationService.CreateTheHistoricallySiginificantLocationIDLists(rawData);
 

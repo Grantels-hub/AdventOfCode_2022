@@ -5,18 +5,18 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A395DEA-A414-4625-A46D-B4121FD0FEC1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{5F712AB6-C5C8-4CB9-A71F-41E9C75FDE83}"
-	ProjectSection(SolutionItems) = preProject
-		resources\day_1.txt = resources\day_1.txt
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "days", "days", "{F4563FFA-22DD-49BD-98C1-8AE5B6387CDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{85D31B0D-2EEE-4D63-91F1-7A94FE96EBB2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCodeLibrary", "AdventOfCodeLibrary\AdventOfCodeLibrary.csproj", "{4A2B5F07-4FC8-49E8-BC7F-BEFAFCF87945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day_01", "Day_01\Day_01.csproj", "{B4AA956D-A6A7-4534-B1DE-C086FC973A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day_01", "Day_01\Day_01.csproj", "{B4AA956D-A6A7-4534-B1DE-C086FC973A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resources", "resources", "{8826893B-CAA9-4A42-B736-06DD3FA1B6D8}"
+	ProjectSection(SolutionItems) = preProject
+		resources\day_1.txt = resources\day_1.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
