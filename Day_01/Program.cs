@@ -1,14 +1,14 @@
-﻿using AdventOfCodeLibrary;
-using Day_01.Services;
+﻿using Day_01.Services;
+using ResourceReader = AdventOfCodeLibrary.ResourceReader;
 
 ResourceReader resourceReader = new();
-CaloriesCalculationService caloriesCalculateService = new();
+HistoricallySignificantLocationService historicallySignificantLocationService = new();
+
 
 string rawData = resourceReader.GetResource(1);
+historicallySignificantLocationService.CreateTheHistoricallySiginificantLocationIDLists(rawData);
 
-caloriesCalculateService.CalculateCaloriesForAllElfs(rawData);
+Console.WriteLine("Solution Part 1:" + historicallySignificantLocationService.GetCalculatedDistanceBetweenLocations());
+Console.WriteLine("Solution Part 2:" + historicallySignificantLocationService.GetSimiliarityScore());
 
-Console.WriteLine("Solution Part 1:" + caloriesCalculateService.GetHighestCalorieAmountOfElfs());
-Console.WriteLine("Solution Part 2:" + caloriesCalculateService.GetTopNCalorieAmountOfElfs(3));
-
-Console.ReadKey();
+Console.ReadLine();
